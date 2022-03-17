@@ -1,0 +1,70 @@
+.totalBG {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contentContainer {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 80%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  max-width: 400px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+.para {
+  font-size: 21px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #334155;
+}
+.coinImage {
+  width: 180px;
+  padding-bottom: 30px;
+}
+.buttons {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Roboto;
+  width: 120px;
+  height: 28px;
+  outline: none;
+  border-width: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.countContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .countContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.paraM {
+  font-weight: bold;
+  color: #475569;
+}
